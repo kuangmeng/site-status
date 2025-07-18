@@ -67,7 +67,7 @@ const setSiteLang = (lang: string) => {
 watch(
   () => statusStore.siteStatus,
   (status) => {
-    const { siteTitle } = config.public;
+    const { siteName } = config.public;
     // 错误数据
     const isError = status === "error" || status === "warn";
     const error = statusStore.siteData?.status?.error || 0;
@@ -75,7 +75,7 @@ watch(
     // 更改信息
     useHead({
       // 更改标题
-      title: isError ? `( ${error + unknown} ) ` + siteTitle : siteTitle,
+      title: isError ? `( ${error + unknown} ) ` + siteName : siteName,
     });
     // 更改图标
     useFavicon(isError ? "/favicon-error.ico" : "/favicon.ico");

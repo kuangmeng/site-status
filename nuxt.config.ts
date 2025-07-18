@@ -8,6 +8,7 @@ import pkg from "./package.json";
 // site env
 const siteConfig = {
   siteTitle: process.env.SITE_TITLE || "状态页",
+  siteName: process.env.SITE_NAME || "Status - NoOA Tech",
   siteDescription: process.env.SITE_DESCRIPTION || "基于UptimeRobot的站点监测",
   siteKeywords: process.env.SITE_KEYWORDS || "站点监测,监测,监控,uptimerobot,uptime robot",
   siteLogo: process.env.SITE_LOGO || "/favicon.ico",
@@ -41,7 +42,7 @@ export default defineNuxtConfig({
     rootAttrs: { id: "nuxt-app" },
     // site-meta
     head: {
-      title: siteConfig.siteTitle,
+      title: siteConfig.siteName,
       meta: [
         {
           name: "description",
@@ -152,7 +153,7 @@ export default defineNuxtConfig({
   // pwa
   pwa: {
     manifest: {
-      name: siteConfig.siteTitle,
+      name: siteConfig.siteName,
       short_name: siteConfig.siteDescription,
       description: siteConfig.siteDescription,
       theme_color: "#ffffff",
