@@ -34,9 +34,9 @@
     "errorText": "Interface call limit exceeded or request error. Please try again later.",
     "status": {
       "stop": "Paused",
-      "unknown": "Not Checked Yet",
+      "unknown": "Unknown",
       "pause": "Paused",
-      "normal": "Normal",
+      "normal": "Operational",
       "error": "Error",
       "down": "Down"
     },
