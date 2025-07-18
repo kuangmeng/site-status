@@ -22,7 +22,6 @@
           <SiteCards v-else />
         </Transition>
       </main>
-      <SiteFooter />
       <!-- 回到顶部 -->
       <n-back-top :visibility-height="10" />
     </n-scrollbar>
