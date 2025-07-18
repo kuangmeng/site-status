@@ -1,11 +1,11 @@
 {
   "uptimeRobot": "UptimeRobot",
   "site": {
-    "loading": "Site status loading",
-    "unknown": "Site status unknown",
-    "normal": "Site is running normally",
-    "error": "All sites encountered issues",
-    "warn": "Some sites encountered issues"
+    "loading": "Loading...",
+    "unknown": "Unknown",
+    "normal": "All systems Operational",
+    "error": "All systems down",
+    "warn": "Some systems down"
   },
   "nav": {
     "about": "About this site",
@@ -15,7 +15,7 @@
     "loading": "Please wait a moment ...",
     "unknown": "This might be a temporary issue. Please try refreshing.",
     "update": "Updated at",
-    "updateAt": "Will refresh in {time}"
+    "updateAt": "Refresh in {time}"
   },
   "footer": {
     "basedOn": "Based on",

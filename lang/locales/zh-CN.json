@@ -1,21 +1,21 @@
 {
   "uptimeRobot": "UptimeRobot",
   "site": {
-    "loading": "站点状态加载中",
-    "unknown": "站点状态未知",
+    "loading": "加载中",
+    "unknown": "未知",
     "normal": "站点运行正常",
-    "error": "全部站点出现异常",
-    "warn": "部分站点出现异常"
+    "error": "全部站点异常",
+    "warn": "部分站点异常"
   },
   "nav": {
     "about": "关于本站",
     "logout": "退出登录"
   },
   "header": {
-    "loading": "请稍等片刻 ...",
+    "loading": "请稍等片刻...",
     "unknown": "这可能是临时性问题，请刷新后重试",
     "update": "更新于",
-    "updateAt": "将于 {time} 后刷新"
+    "updateAt": "{time} 后刷新"
   },
   "footer": {
     "basedOn": "基于",
